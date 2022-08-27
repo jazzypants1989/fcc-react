@@ -24,10 +24,7 @@ const Contact = () => {
         e.preventDefault()
         emailjs
         .sendForm(
-            'service_i7zpsbf',
-            'wowzers-zowzers',
-            refForm.current,
-            '1FNQdJyRt-daxeXxf'
+
         )
         .then(
             () => {
