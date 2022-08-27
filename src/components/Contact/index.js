@@ -24,7 +24,10 @@ const Contact = () => {
         e.preventDefault()
         emailjs
         .sendForm(
+<<<<<<< HEAD
 
+=======
+>>>>>>> 79f1665e98da9650bf408396e49b00b73ea7b668
         )
         .then(
             () => {
